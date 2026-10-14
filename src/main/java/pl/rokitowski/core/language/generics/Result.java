@@ -1,5 +1,6 @@
 package pl.rokitowski.core.language.generics;
 
+
 public class Result<T,E> {
     public final T data;
     public final E error;
@@ -39,4 +40,6 @@ public class Result<T,E> {
         }
         return defaultValue;
     }
+
+
 }
